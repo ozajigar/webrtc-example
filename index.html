@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>BHP - Best Health Professional</title>
+        <title>Webrtc- Demo Example</title>
         <style type="text/css">       
         #localVideo{
                 /*width: 100%;
@@ -65,47 +65,18 @@
 
     </head>
 
-    <body class="login-content" data-ng-controller="loginCtrl as lctrl">
-        
-        
-        
-        
+    <body class="login-content" >
             <div id="interviewYes" style="display:block;margin-top:-5%" >
                 <div style='position: absolute;left: 0;top: 0;width: 16%;z-index:9999'>
                 <video id="localVideo" oncontextmenu="return false;"></video>
                 </div>
                 <div id="localScreenContainer" class="videoContainer col-md-6"></div>
                 <div id="remotes" ></div> 
-                
-                            
             </div>            
-        
-           
-        
-           
-            
-        
-           
-        
-        
-        
-    
-        
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script src="https://simplewebrtc.com/latest-v2.js"></script>
         <script>
-            
-           
-           
-           
-
-
-            
-
             $(function () {  
-            
-             
-                    
                    
                     var elem = document.getElementById("localVideo");
                         if (elem.requestFullscreen) {
